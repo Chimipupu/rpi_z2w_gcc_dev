@@ -12,11 +12,11 @@
 set -e
 
 # Source code directory
-SRC_DIR="../test/gcc_test"
+SRC_DIR=""
 OUTPUT_NAME="gcc_test"
 
 echo "Building gcc_test..."
-gcc -o "${OUTPUT_NAME}" "${SRC_DIR}/gcc_test.c"
+gcc -o "${OUTPUT_NAME}" "${SRC_DIR}gcc_test.c"
 echo "Build completed successfully."
 
 echo "Running gcc_test..."
