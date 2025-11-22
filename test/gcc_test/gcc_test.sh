@@ -17,8 +17,8 @@ OUTPUT_NAME="gcc_test"
 
 echo "Building gcc_test..."
 gcc -o "${OUTPUT_NAME}" "${SRC_DIR}gcc_test.c"
-echo "Build completed successfully."
+echo "Build completed success"
 
 echo "Running gcc_test..."
 ./"${OUTPUT_NAME}"
-echo "Execution completed."
+echo "End gcc_test"
